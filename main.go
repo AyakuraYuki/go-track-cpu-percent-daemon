@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/shirou/gopsutil/v4/cpu"
-	_ "github.com/shirou/gopsutil/v4/cpu"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+
+	"github.com/shirou/gopsutil/v4/cpu"
 )
 
 func main() {
